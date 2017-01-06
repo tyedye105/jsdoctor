@@ -1,7 +1,7 @@
 {
   "name": "jsdoctor",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "license": "ISC",
   "homepage": "",
   "ignore": [
