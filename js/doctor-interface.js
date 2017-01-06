@@ -6,8 +6,6 @@ $(document).ready(function() {
     event.preventDefault();
     var ailment = $('#ailmentInput').val();
     foundDoctors.getDoctors(ailment);
-
-
   });
 
 });
