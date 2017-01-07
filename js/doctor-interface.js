@@ -6,10 +6,11 @@ $(document).ready(function() {
     event.preventDefault();
     var ailment = $('#ailmentInput').val();
     foundDoctors.getDoctors(ailment);
+  $("#listofDocs").html("")
   });
   $("#show").click(function(event){
     event.preventDefault();
-    $("=")
+    $("#show").toggleClass('hidden');
     foundDoctors.displayDoctors();
   })
 });

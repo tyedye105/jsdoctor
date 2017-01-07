@@ -35,6 +35,7 @@ Doctor.prototype.getDoctors = function(medicalIssue) {
 Doctor.prototype.displayDoctors = function () {
 allDoctors.forEach(function(doctor){
   $("#listofDocs").append("<li>" + doctor.firstName + " " + doctor.lastName + " " + doctor.title);
+
 });
 };
 
